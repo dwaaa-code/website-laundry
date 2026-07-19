@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+
+    <title>LaundryKu</title>
+    <meta name="description" content="website memesan jasa laundry" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>LaundryKu</h1>
+    </header>
+
+    <main class="main-content">
+      <section id="home">
+        <div id="home-container">
+          <div class="home-info">
+            <h1>Selamat Datang di Laundryku!</h1>
+            <p>
+              <strong>Laundryku</strong> adalah solusi manajemen laundry digital
+              yang dirancang khusus untuk mempermudah pencatatan transaksi
+              secara <i>praktis, cepat, dan rapi.</i> Dari terima pakaian hingga
+              siap diambil, semua datanya terpantau langsung dalam satu
+              genggaman tanpa ribet.
+            </p>
+          </div>
+
+          <div class="preview-container">
+            <div class="preview-card">
+              <img src="/images/laundry1.jpeg" alt="mesin cuci" />
+            </div>
+            <div class="preview-card">
+              <img src="/images/laundry2.jpeg" alt="baju bersih" />
+            </div>
+            <div class="preview-card">
+              <img src="/images/laundry3.jpeg" alt="mencuci" />
+            </div>
+          </div>
+
+          <!-- Konten Baru: Transaksi Terbaru untuk memenuhi space kosong -->
+          <div class="recent-orders">
+            <div class="section-title">
+              <h3>Transaksi Terbaru</h3>
+              <a href="#active-order">Lihat Semua</a>
+            </div>
+
+            <div class="order-list">
+              <!-- Item Pesanan 1 -->
+              <div class="order-item">
+                <div class="order-info">
+                  <h4>Andi Wijaya</h4>
+                  <p>Cuci Komplit • 3 kg</p>
+                </div>
+                <span class="status-badge processing">Diproses</span>
+              </div>
+
+              <!-- Item Pesanan 2 -->
+              <div class="order-item">
+                <div class="order-info">
+                  <h4>Siti Rahma</h4>
+                  <p>Setrika Saja • 5 kg</p>
+                </div>
+                <span class="status-badge pending">Antrean</span>
+              </div>
+            </div>
+          </div>
+          <!-- Transaksi end -->
+
+          <div class="stats-container">
+            <div class="stat-card">
+              <i class="bx bx-time-five"></i>
+              <h3>5</h3>
+              <p>Antrean</p>
+            </div>
+            <div class="stat-card">
+              <i class="bx bx-water"></i>
+              <h3>2</h3>
+              <p>Diproses</p>
+            </div>
+            <div class="stat-card">
+              <i class="bx bx-check-circle"></i>
+              <h3>12</h3>
+              <p>Selesai</p>
+            </div>
+          </div>
+          <!-- stats end -->
+        </div>
+      </section>
+      <!-- end home -->
+      <footer class="app-footer">
+        <p>© 2026 <strong>LaundryKu</strong>. All rights reserved.</p>
+        <p>Crafted by Dua</p>
+      </footer>
+    </main>
+
+    <nav class="bottom-nav">
+      <a href="#home" class="nav-item active">
+        <i class="bx bx-home-alt nav-icon"></i>
+        <p>home</p>
+      </a>
+      <a href="#order" class="nav-item">
+        <i class="bx bx-plus-circle nav-icon"></i>
+        <p>order</p>
+      </a>
+      <a href="#active-order" class="nav-item">
+        <i class="bx bx-time-five nav-icon"></i>
+        <p>active orders</p>
+      </a>
+      <a href="#history" class="nav-item">
+        <i class="bx bx-receipt nav-icon"></i>
+        <p>history</p>
+      </a>
+    </nav>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
